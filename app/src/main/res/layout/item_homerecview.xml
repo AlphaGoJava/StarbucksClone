@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="135dp"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/jamong"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:src="@drawable/jamong"
+            android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/rec_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="아이스 자몽 허니 블랙 티"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="14dp"
+        android:layout_marginTop="10dp"/>
+    </LinearLayout>
+
+</LinearLayout>

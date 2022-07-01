@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/tab1"
+        android:icon="@drawable/home"
+        android:enabled="true"
+        app:showAsAction="ifRoom"
+        android:title="Home"/>
+
+    <item
+        android:id="@+id/tab2"
+        android:icon="@drawable/pay"
+        android:enabled="true"
+        app:showAsAction="ifRoom"
+        android:title="Pay"/>
+
+    <item
+        android:id="@+id/tab3"
+        android:icon="@drawable/order"
+        android:enabled="true"
+        app:showAsAction="ifRoom"
+        android:title="Order"/>
+
+    <item
+        android:id="@+id/tab4"
+        android:icon="@drawable/gift"
+        android:enabled="true"
+        app:showAsAction="ifRoom"
+        android:title="Gift"/>
+
+    <item
+        android:id="@+id/tab5"
+        android:icon="@drawable/other"
+        android:enabled="true"
+        app:showAsAction="ifRoom"
+        android:title="Other"/>
+
+
+
+</menu>
